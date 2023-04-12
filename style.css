@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color:lavender;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color:#BDCDD6;
+}
+header .logo
+{
+    position: relative;
+    width: 90%;
+    height: 50px;
+
+}
+header h1
+{
+    position: relative;
+    padding-right: 1000px;
+    color: white;
+}
+header ul 
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a
+{
+    display: inline-block;
+    color:white;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+.display
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.display .background
+{
+    position: relative;
+    max-width: 1000px;
+}
+.display .background h1
+{
+    color: #20262E;
+    font-size:4em;
+    line-height: 1.4em;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+.display .background p
+{
+    font-size: 1.3em;
+}
+.display .background a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: white;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+}
+.content .dental img
+{
+    max-width: 400px;
+}
+.content .dental
+{
+   width: 600px;
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 50px; 
+   margin-top: 50px;
+}
+
+
+
